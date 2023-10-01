@@ -1,0 +1,36 @@
+<html>
+    <head>
+    <link rel="icon" href="favicon-32x32.png">
+        <title>Slideshow-Cata</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="slider">
+         
+        <button id="prev" onclick="slide_left(); automat()">&#8592;</button>
+            
+          <div class="slide current">
+            <img src="/slideshow/1.JPG" style="height: 100%;">
+            <p>1/3</p>
+          </div>
+          
+          <div class="slide ">
+            <img src="/slideshow/2.JPG" style="height: 100%;">
+            <p>2/3</p>
+          </div>
+          
+          <div class="slide ">
+            <img src="/slideshow/3.JPG" style="height: 100%;">
+            <p>3/3</p>
+          </div>
+        
+        <button id="next" onclick="slide_right(); automat()">&#8594;</button>
+
+        </div>
+
+        
+       
+      
+        <script src="slides.js"></script>
+      </body>
+</html>
